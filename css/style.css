@@ -1,0 +1,549 @@
+@import url(reset.css);
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    margin-top: 35%;
+    margin-bottom: 35%;
+    border: 0;
+    border-top: 3px solid grey;
+}
+
+h1 {
+    font: 26px Helvetica, sans-serif;
+}
+
+p {
+    font: 16px Helvetica, sans-serif;
+}
+
+   /*header*/
+
+header {
+    background-color: #373737;
+}
+
+.contacts {
+    padding: 1% 0 1% 0;
+}
+
+.contacts li {
+    float: left;
+    font: 12px Helvetica, sans-serif;
+    color: #fff;
+	text-align: center;
+}
+
+li>span {
+    margin-right: 5px;
+    color: grey;
+}
+
+   /*navigation*/
+   
+.logo h3{
+	font: bold 20px Arial black;
+	letter-spacing: 3px;
+	color: #373737;
+}
+
+#navigation{
+    padding: 30px 0 30px 0;
+    text-align: center;   
+}
+
+.collapse-menu {
+    border: none;
+    background: none;
+    -webkit-box-shadow: none;
+}
+
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li a{
+	font: bold 12px Arial;
+	color: #606060;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	border-bottom: 2px solid green;
+	padding-bottom: 0px;
+}
+
+.nav>li {
+    max-width: 180px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+	background: #ff8000;
+	color: #fff;
+	-webkit-box-shadow: none;
+    box-shadow: none; 
+	border-radius: 5px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 0px;
+    margin-bottom: 0px;
+}
+
+   /*first-block*/
+
+#first-block{
+	background: url(../images/cafe.jpg);
+	text-align: center;
+	color: #fff;
+
+}
+
+#first-block .text-content{
+	background-color: rgba(24, 113, 96, 0.8);
+    padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.text-content h1 {
+	font: 36px Helvetica, sans-serif;
+    padding-bottom: 2%;
+}
+
+.text-content p {
+    font-size: 26px;
+    padding: 2% 0 10% 0;
+}
+
+a.link {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font: bold 14px Helvetica, sans-serif;
+}
+
+a.link:hover{
+	color: #ff8000;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.text-content img {
+	margin: 0px auto;
+}
+
+   /*second-block*/
+
+#second-block{
+	padding-top: 5%;
+	text-align: center;
+}
+
+#second-block .second  p{
+    color: #777;
+	font: 15px Helvetica, sans-serif;
+    line-height: 25px;
+    padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#second-block .second h3{
+	margin-top: 10%;
+	font: 20px sans-serif, Helvetica;
+}
+
+i.fa-angle-down{
+	font-size: 100px;
+	color: #e3e3e3;
+}
+
+i.fa-angle-down.first-arrow{
+   margin: 40px 0 30px 0;
+}
+
+
+   /*third-block*/
+
+#third-block{
+	background: #f2f2f2;
+	text-align: center;
+}
+
+i.fa-angle-down.second-arrow {
+    margin-top: 30px;
+	color: #d3d3d3;
+}
+
+.third h2{
+	font: bold 25px sans-serif, Helvetica;
+	margin: 30px;
+	color: #4d354b;
+}
+
+.third p{
+	font: bold 15px CONSOLAS;
+}
+
+   /*fourth-block*/
+
+#fourth-block{
+	background: url(../images/bussines.jpg);
+	text-align: center;
+}
+
+.fourth{
+	background-color: rgba(22, 71, 85, 0.8);
+}
+
+.fourth h2{
+	color: #f09235;
+	font: bold 34px sans-serif, Helvetica;
+	margin-top: 10%;
+}
+
+.fourth p {
+    color: #fff;
+    font: 18px sans-serif, Helvetica;
+    padding-top: 5%;
+    line-height: 25px;
+}
+
+.fourth img{
+	height: 55px;
+	margin-top: 30px;
+}
+
+i.fa.fa-quote-right {
+    color: grey;
+    font-size: 150%;
+    margin-top: 85%;
+}
+
+i.fa.fa-angle-down.third-arrow {
+    margin-top: 5%;
+    color: grey;
+}
+
+.underline {
+    border-bottom: 1px solid grey;
+    padding-top: 10%;
+}
+
+   /*fifth-block*/
+
+#fifth-block{
+	text-align: center;
+}
+
+.fifth{
+	text-align: left;
+	padding-top: 5%;
+}	
+	
+.work-system{
+	text-align: center;
+}
+.work-system img {
+    width: 400px;
+}
+
+.fifth h2{
+	color: #825084;
+	font: bold 35px sans-serif, Helvetica;
+	margin-bottom: 5%;
+}
+
+.fifth h4{
+	color: #6f757a;
+	font: 20px sans-serif, Helvetica;
+	margin-bottom: 10%;
+}
+
+.fifth h5{
+	color: #2693ad;
+	font: bold 20px sans-serif, Helvetica;
+	margin-bottom: 5%;
+}
+
+.fifth p{
+	color: #6f757a;
+	font: 16px sans-serif, Helvetica;
+	line-height: 23px
+}
+
+i.fa.fa-angle-down.fourth-arrow {
+    margin: 1% 0 2% 0;
+}
+
+   /*sixth-block*/
+
+#sixth-block{
+	background: url(../images/working.jpg) no-repeat;
+	text-align: center;
+	color: #fff;
+}
+
+.sixth{
+	background-color:  rgba(74,50,73,0.8);
+}
+
+.sixth h2{
+	color: #23a18a;
+	font: bold 32px sans-serif, Helvetica;
+	margin: 10% 0 5% 0;
+}
+
+.sixth p{
+	font: 22px sans-serif, Helvetica;
+    margin-top: 5%;
+}
+
+.sixth b{
+	font: 18px sans-serif, Helvetica;
+}
+
+.sixth img{
+	height: 55px;
+}
+
+.icons{
+	color: rgba(128,128,128,0.8);
+}
+
+i.fa.fa-hand-o-down.fa-3x {
+    margin: 3% 0 3% 0;
+}
+
+i.fa.fa-angle-double-down.fa-2x {
+    margin-top: 2%;
+}
+
+blink {
+    font: bold 17px sans-serif, Helvetica;
+    color: rgba(128,128,128,1);
+}
+
+   /*seventh*/
+
+.seventh-img{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.seventh h3{
+	font: 20px Helvetica, sans-serif;
+	letter-spacing: 0px;
+	color: #707372;
+	margin-top: 40;
+}
+
+.seventh i{
+	font-style: italic;
+	color: #707372;
+}
+
+#ihg-page{
+	background: url(../images/hall.jpg);
+}
+
+.news-block{
+	margin-top: 20px;
+}
+
+.news-title{
+	background-color: #d96531;
+	height: 30px;
+	border-radius: 10px 10px 0 0;
+	text-align: center;
+	color: #fff;
+	font: bold 16px Helvetica, sans-serif;
+    padding-top: 7px;
+}
+
+.news-content{
+	background-color: #fff;
+	text-align: center;
+	padding: 25px 0 25px;
+	color: #464646;
+	font: 18px Helvetica, sans-serif;
+	border-bottom: 1px dotted grey;
+}
+
+.news-content i{
+	margin-right: 10px;
+}
+
+
+.news-content b{
+	font: bold 27px Helvetica;
+}
+
+.news-footer{
+	background-color: #ebebeb;
+	height: 30px;
+	border-radius: 0 0 10px 10px;
+	text-align: right;
+	font: italic 12px Helvetica, sans-serif;
+    padding-top: 8px;
+}
+
+.news-footer a{
+	color: #8d8d9e;
+	text-decoration: none;
+}
+
+.news-footer a:hover{
+	color: #d96531;
+}
+
+.news-content p {
+    font: italic 11px Helvetica, sans-serif;
+}
+
+img.pack {
+    margin: 10px 0 10px -3px;
+}
+
+a.button {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  text-decoration: none;
+  border: .5em solid rgba(0,0,0,0);
+  border-radius: 100%;
+  background: #763c54 linear-gradient(#5cb85c, #5cb85c) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+  box-shadow: inset 0 -3px 10px rgba(255,255,255,1), inset 0 3px 10px #920000, 0 2px 4px #a94442;
+}
+
+a.button:hover{
+	background: rgb(245,245,245) linear-gradient(rgb(245,245,245), rgb(188,192,193)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+}
+
+.information{
+	height: 299px;
+    padding-top: 35px;
+	overflow: hidden;
+}
+
+.title-vanity {
+    height: 26px;
+    background-color: #4c4c4c;
+    color: #fff;
+    margin-top: 5px;
+    padding-top: 7px;
+}
+
+   /*eighth*/
+   
+#eighth-block{
+	background: url(../images/working2.jpg);
+	text-align: center;
+}   
+
+#eighth-block .eighth{
+	background-color: rgba(20, 95, 81, 0.88);
+}
+
+#ninth-block{
+	font: 38px Helvetica, sans-serif;
+}
+
+#ninth-block img{
+	height: 55px;
+}
+
+#ninth-block h3{
+    padding: 10% 5% 5% 10%;
+}
+
+.ninth-left{
+	text-align: right;
+		color: #4d354b;
+	background-color: #fff;	
+	height: 350px;
+}
+
+.ninth-right{
+	background-color: #1e758c;
+	color: #fff;
+    height: 350px;
+}
+
+.min-logo{
+	border-right: 2px solid #eeeeee;
+    margin: 5% 0 5% 0;
+	text-align: right;
+}
+
+.foto{
+	text-align: left;
+	    margin: 5% 0 5% 0;
+}
+
+.ninth-right::after {
+    content: ''; 
+    position: absolute;
+    left: -40px;
+	bottom: 45px;
+    border: 20px solid transparent;
+	border-right: 20px solid #1e758c;
+}
+   
+   /*tenth-block*/
+
+#tenth-block{
+	background-color: #4a3249;
+	text-align: center;
+	font: bold 20px Helvetica, sans-serif;
+	color: #fff;
+	padding-bottom: 15px;
+}   
+
+#tenth-block img{
+	margin: 6% 0 1% 0;
+	height: 30%;
+}
+
+#tenth-block p {
+	margin: 7% 0 4% 0;
+}
+
+#tenth-block  i{
+	margin-right: 5px;
+}
+
+footer{
+	background: #1e758c;
+	text-align: center;
+}
+
+footer i{
+	color: #6baab9;
+	margin-right: 10px;
+}
+
+footer a{
+	color: #fff;
+    font: bold 12px Helvetica, sans-serif;
+}
+
+footer a.link {
+	padding: 8px;
+    border-radius: 10px;
+    font: bold 12px Helvetica, sans-serif;
+}
+footer a:focus, a:hover {
+    color: #ff8000;
+    text-decoration: none;
+}
+
+footer .contacts {
+    padding: 5% 0 5% 0;
+}
